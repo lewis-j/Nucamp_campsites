@@ -6,6 +6,7 @@ import {
   ContactPage,
   CampsitesDirectoryPage,
   CampsiteDetailPage,
+  AboutPage,
 } from "./pages";
 
 import "./App.css";
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="contact" element={<ContactPage />} />
+        <Route path="about" element={<AboutPage />} />
         <Route path="directory" element={<CampsitesDirectoryPage />} />
         <Route path="directory/:campsiteId" element={<CampsiteDetailPage />} />
       </Routes>
